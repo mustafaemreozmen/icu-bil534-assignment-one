@@ -1,0 +1,54 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Duck", "Duck", "{DA0D2CB2-206A-42D0-B8C9-EB7CD69B3517}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{BBCDD26D-03C1-4103-B385-1A7874E06165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duck", "Duck\Duck.csproj", "{F331FFBD-398F-4893-8CDD-1E9C469070BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{B4EAB41A-79B9-41B7-9AE2-3886ACB3B924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LearningDiff", "LearningDiff", "{E0F82E9E-15B8-44D8-819A-FB9AE85C0579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningDiff", "LearningDiff\LearningDiff.csproj", "{ECE1068A-E37C-4F16-826B-D1E53C0FAB95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trip", "Trip\Trip.csproj", "{F978FF74-2000-4846-B71D-FB0B68186FFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trip", "Trip", "{5EA029C4-EA51-4026-942E-3A903B0F3B9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F331FFBD-398F-4893-8CDD-1E9C469070BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F331FFBD-398F-4893-8CDD-1E9C469070BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F331FFBD-398F-4893-8CDD-1E9C469070BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F331FFBD-398F-4893-8CDD-1E9C469070BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EAB41A-79B9-41B7-9AE2-3886ACB3B924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EAB41A-79B9-41B7-9AE2-3886ACB3B924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EAB41A-79B9-41B7-9AE2-3886ACB3B924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EAB41A-79B9-41B7-9AE2-3886ACB3B924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE1068A-E37C-4F16-826B-D1E53C0FAB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE1068A-E37C-4F16-826B-D1E53C0FAB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE1068A-E37C-4F16-826B-D1E53C0FAB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE1068A-E37C-4F16-826B-D1E53C0FAB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F978FF74-2000-4846-B71D-FB0B68186FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F978FF74-2000-4846-B71D-FB0B68186FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F978FF74-2000-4846-B71D-FB0B68186FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F978FF74-2000-4846-B71D-FB0B68186FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F978FF74-2000-4846-B71D-FB0B68186FFC} = {5EA029C4-EA51-4026-942E-3A903B0F3B9F}
+		{ECE1068A-E37C-4F16-826B-D1E53C0FAB95} = {E0F82E9E-15B8-44D8-819A-FB9AE85C0579}
+		{B4EAB41A-79B9-41B7-9AE2-3886ACB3B924} = {BBCDD26D-03C1-4103-B385-1A7874E06165}
+		{F331FFBD-398F-4893-8CDD-1E9C469070BB} = {DA0D2CB2-206A-42D0-B8C9-EB7CD69B3517}
+	EndGlobalSection
+EndGlobal
